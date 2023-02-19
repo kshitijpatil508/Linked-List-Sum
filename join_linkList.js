@@ -89,5 +89,8 @@ function joinll(ll, ll2) {
     current = current.next;
   }
   current.next = ll2.head;
+  sorted.printll();
   return sorted;
 }
+
+joinll(ll, ll2);
